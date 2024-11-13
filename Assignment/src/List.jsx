@@ -1,11 +1,11 @@
 import React from 'react';
-import ProductList from './ProductList.jsx';
+import ProductList from './ProductList';
 
 function App() {
   const products = [
-    { name: 'Apple', price: 1.0 },
-    { name: 'Banana', price: 0.5 },
-    { name: 'Cherry', price: 2.0 },
+    { name: 'Apple', inStock: true },
+    { name: 'Banana', inStock: false },
+    { name: 'Cherry', inStock: true },
   ];
 
   return (
